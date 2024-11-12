@@ -3,13 +3,6 @@ Clasificador de Errores de Sintaxis en Código Python
 
 Este proyecto está diseñado para clasificar errores de sintaxis y errores de declaración en fragmentos de código. Utiliza un modelo de Machine Learning (Random Forest) entrenado con características extraídas de fragmentos de código.
 
-Índice
-Configuración del Entorno de Trabajo
-Crear el Proyecto y Configurar el Entorno Virtual
-Escribir y Configurar el Código
-Ejecutar el Proyecto
-Resultados
-Configuración del Entorno de Trabajo
 
 1. Instalar Python
 Si aún no tienes Python instalado, sigue estos pasos:
