@@ -31,51 +31,46 @@ Es recomendable usar un entorno virtual para manejar las dependencias del proyec
 
 `python -m venv venv`.
 
-
-### Este comando crea un entorno virtual en una carpeta llamada venv dentro de tu proyecto.
+Este comando crea un entorno virtual en una carpeta llamada venv dentro de tu proyecto.
 
 ### 4. Activar el Entorno Virtual
 En Windows, usa el siguiente comando:
 
-bash
-Copiar código
-venv\Scripts\activate
+`venv\Scripts\activate`
 Verás que la terminal muestra (venv) al inicio de la línea, lo que indica que el entorno virtual está activado.
 
-5. Instalar las Dependencias
+### 5. Instalar las Dependencias
 Con el entorno virtual activado, instala las bibliotecas necesarias ejecutando el siguiente comando:
 
-bash
-Copiar código
-pip install scikit-learn pandas seaborn matplotlib
+`pip install scikit-learn pandas seaborn matplotlib`
 Estas bibliotecas son esenciales para el procesamiento de datos, el entrenamiento del modelo y la visualización de resultados.
 
-Escribir y Configurar el Código
-1. Crear el Archivo de Código
+## Escribir y Configurar el Código
+### 1. Crear el Archivo de Código
 Dentro de tu carpeta de proyecto, crea un archivo llamado AprendizajeSupervisado.py.
 
-2. Escribir el Código
-Abre AprendizajeSupervisado.py en VS Code y copia el código que se encuentra en este repositorio con el nombre AprendizajeSupervisado.py.
-3. Guardar el Archivo
+### 2. Escribir el Código
+Abre AprendizajeSupervisado.py en VS Code y copia el código que se encuentra en este repositorio.
+### 3. Guardar el Archivo
 Una vez que hayas copiado el código, guarda el archivo presionando Ctrl + S o Cmd + S en tu teclado.
-4. Crear el Archivo de Datos
+## 4. Crear el Archivo de Datos
 Crea un archivo en la misma carpeta donde está tu programa AprendizajeSupervisado.py, con el nombre datos_errores.csv.
 Copia el contenido del archivo datos_errores.csv de este repositorio y pégalo en el archivo que acabas de crear, luego guarda los cambios con Ctrl + S.
-Ejecutar el Proyecto
-1. Ejecutar el Código en la Terminal de VS Code
-Asegúrate de que el entorno virtual esté activado (deberías ver (venv) en la terminal). Luego, ejecuta el script con el siguiente comando:
 
-bash
-Copiar código
-python AprendizajeSupervisado.py
-2. Verificar los Resultados
+## Ejecutar el Proyecto
+### 1. Ejecutar el Código en la Terminal de VS Code
+Asegúrate de que el entorno virtual esté activado (deberías ver (venv) en la terminal). Luego, ejecuta el script con el siguiente comando:
+`python AprendizajeSupervisado.py`
+## 2. Verificar los Resultados
 En la terminal de VS Code, deberías ver las métricas de evaluación impresas:
 
 Precisión (accuracy)
 Precision
 Recall
 F1 Score
-3. Visualizar la Matriz de Confusión
+## 3. Visualizar la Matriz de Confusión
 La matriz de confusión se mostrará en una ventana de Matplotlib, la cual visualiza cómo el modelo clasifica los errores de sintaxis y declaración. La matriz te permitirá verificar si el modelo está funcionando correctamente.
 
+Para más pruebas:
+Puedes modificar el archivo datos_errores.csv y poner diferentes casos de entrenamiento y ejecutar nuevamente el código.
 
