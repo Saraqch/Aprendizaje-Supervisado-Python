@@ -29,13 +29,12 @@ Si no tienes Visual Studio Code instalado, puedes obtenerlo desde [code.visualst
 ### 3. Crear un Entorno Virtual
 Es recomendable usar un entorno virtual para manejar las dependencias del proyecto. Para crearlo, ejecuta el siguiente comando en la terminal:
 
-```bash
 `python -m venv venv`.
 
 
 ### Este comando crea un entorno virtual en una carpeta llamada venv dentro de tu proyecto.
 
-4. Activar el Entorno Virtual
+### 4. Activar el Entorno Virtual
 En Windows, usa el siguiente comando:
 
 bash
