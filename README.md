@@ -1,4 +1,6 @@
 Clasificador de Errores de Sintaxis en Código Python
+
+
 Este proyecto está diseñado para clasificar errores de sintaxis y errores de declaración en fragmentos de código. Utiliza un modelo de Machine Learning (Random Forest) entrenado con características extraídas de fragmentos de código.
 
 Índice
@@ -50,10 +52,12 @@ Escribir y Configurar el Código
 Dentro de tu carpeta de proyecto, crea un archivo llamado  AprendizajeSupervisado.py
 
 2. Escribir el Código
-Abre clasificador_errores.py y copia el código que esta en este repositorio denominado: AprendizajeSupervisado.py
+Abre AprendizajeSupervisado.py en VS y copia el código que esta en este repositorio denominado: AprendizajeSupervisado.py
 
 3. Guardar el Archivo
 Una vez que hayas copiado el código, guarda el archivo presionando Ctrl + S o Cmd + S en tu teclado.
+4. Crea un archivo en la misma ruta que tu programa en python AprendizajeSupervisado.py, un archivo datos_errores.csv, copia lo que está en este repositorio
+   en la carpeta que archivo que tiene el mismo nombre y guarda los cambios con ctrl+s.
 
 Ejecutar el Proyecto
 1. Ejecutar el Código en la Terminal de VS Code
